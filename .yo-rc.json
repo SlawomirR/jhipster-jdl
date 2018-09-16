@@ -1,0 +1,34 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "io.github.slawomirr"
+        },
+        "jhipsterVersion": "5.3.1",
+        "applicationType": "monolith",
+        "baseName": "jhipsterJDL",
+        "packageName": "io.github.slawomirr",
+        "packageFolder": "io.github.slawomirr",
+        "serverPort": "8080",
+        "authenticationType": "session",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": false,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Memory",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "YjM0NDAwNmUzMWFkYzAwZjk5ZDY2YmFlODJmNzE3MDk0ZmUxMGMwMmJiMThhMmVkMWYwMjUxMjJiMGU5YzgxZDY5YmQ2OTQ3YmFkMDc0NTBlOTM4OGJjYTk1YzE5YWU4ODUxZjlhOTYzZTM2Njc2MjQxZTEyNzM4NWRiZDEwN2M=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [
+            "gatling"
+        ],
+        "jhiPrefix": "jhi",
+        "enableTranslation": false
+    }
+}
