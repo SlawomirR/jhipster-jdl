@@ -1,0 +1,35 @@
+{
+    "name": "Task",
+    "fields": [
+        {
+            "fieldName": "taskId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "relationshipName": "job",
+            "otherEntityName": "job",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "task"
+        }
+    ],
+    "changelogDate": "20180916224110",
+    "entityTableName": "task",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

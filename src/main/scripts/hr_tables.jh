@@ -107,5 +107,18 @@ paginate JobHistory, Employee with infinite-scroll
 paginate Job with pagination
 
 dto Employee with mapstruct
+dto Department with mapstruct
+dto Location with mapstruct
+dto Country with mapstruct
+dto Region with mapstruct
+dto Job with mapstruct
+dto Task with mapstruct
 
 service Employee with serviceClass
+service Department with serviceClass
+service Location with serviceClass
+service Country with serviceClass
+service Region with serviceClass
+service Job with serviceClass
+service Task with serviceClass
+
